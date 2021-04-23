@@ -1,4 +1,4 @@
 var http = require('http');
 http.createServer(function(req, res) {
-    res.window.location = "/welcome.js";
+    res.window.location = "/index.html";
 }).listen(8080);

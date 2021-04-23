@@ -1,8 +1,3 @@
-const express = require('http');
-const app = express()
-    //create a server object:
-app.get('/', (req, res) => {
-
     const loginForm = document.getElementById("login-form");
     const loginButton = document.getElementById("login-form-submit");
     const loginErrorMsg = document.getElementById("login-error-msg");
@@ -22,6 +17,3 @@ app.get('/', (req, res) => {
             loginErrorMsg.style.opacity = 1;
         }
     })
-
-})
-app.listen(8080); //the server object listens on port 8080
