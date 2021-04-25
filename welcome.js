@@ -3,7 +3,9 @@
     const loginErrorMsg = document.getElementById("login-error-msg");
     const loginWelcome = document.getElementById("welcome-page");
 
-
+    function Redirect() {
+        window.location = "loggedin.html";
+    }
     loginButton.addEventListener("click", (e) => {
         e.preventDefault();
         const username = loginForm.username.value;
